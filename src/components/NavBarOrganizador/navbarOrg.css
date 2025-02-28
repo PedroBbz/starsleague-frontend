@@ -1,0 +1,121 @@
+.navbarOrg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(51, 32, 66, 0.041);
+    height: 80px;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+.navbarOrg .botoes>div {
+    text-align: center;
+}
+
+.navbarOrg .botoes {
+    display: flex;
+    gap: 80px
+}
+
+
+.botoes{
+    font-size: 15px;
+}
+
+.botoes button {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px
+    
+}
+
+.navbarOrg img {
+    width: 80px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.perfil button {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../assets/perfil.png');
+    background-size: contain;
+    border: none;
+    margin-right: 25px;
+    cursor: pointer
+}
+.perfil button:hover{
+    filter:brightness(0.9)
+}
+
+.btn-icone {
+    background-image: url('../../assets/star.png');
+    background-color: transparent;
+    border: none;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 40px; /* Espaço para o ícone */
+    height: 40px;
+}
+
+.btn-icone:hover{
+    filter: brightness(1.8);
+}
+
+
+
+
+/* COMEÇO DA BARRA DE MENU */
+.perfil {
+    position: relative;
+}
+
+.profile-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #e5e7eb;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #d1d5db;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    margin-top: 8px;
+    width: 190px;
+
+    /* É aqui */
+    background-color: rgb(18, 14, 37); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+.dropdown-menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: rgb(190, 90, 255);
+    transition: background-color 0.2s;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(51, 38, 119);
+    
+}
+
+/* FIM DA BARRA DE MENU*/

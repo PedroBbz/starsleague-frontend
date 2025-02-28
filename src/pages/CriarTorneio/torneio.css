@@ -1,0 +1,149 @@
+.torneio-container{
+    width: 100vw;
+    height:100vh;
+    background: rgb(13,19,51);
+    background: linear-gradient(225deg, rgba(13,19,51,1) 23%, rgba(66,20,111,1) 53%, rgba(71,7,135,1) 77%, rgba(54,31,87,1) 99%);
+}
+
+.textoCriar{
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:#fff;
+}
+
+.opcoesTorneio{
+
+    height:570px;
+    display: flex;
+}
+
+.imagemTorneio{
+    width:450px;
+    height:100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.imagemTorneio img{
+    margin-left: 300px;
+    margin-bottom: 300px;
+}
+
+.inputsTorneio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 340px;
+}
+
+
+
+.inputFotoTorneio {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff
+}
+.inputFotoTorneio p{
+    padding-bottom: 10px;
+}
+
+/* Esconde o input padrão */
+.inputFotoTorneio input[type="file"] {
+    display: none;
+}
+
+/* Estiliza o label como botão */
+.inputFotoTorneio label {
+    background-color: #4c4668;
+    border: 2px solid #9fa4c0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.inputFotoTorneio label:hover {
+    background-color: #363249;
+}
+
+.custom-select {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-select label {
+    font-size: 12px;
+    color: #bbb; /* Cor do rótulo */
+  }
+  
+  .custom-select select {
+    background-color: #2c2c2c; /* Fundo escuro */
+    color: #fff; /* Cor do texto */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none; /* Remove o estilo padrão do sistema */
+  }
+  
+  .custom-select select:focus {
+    outline: 2px solid #6a0dad; /* Cor do destaque ao focar */
+  }
+  
+  .custom-select select option {
+    background-color: #333; /* Cor das opções */
+    color: white;
+  }
+  
+  .custom-select select option:disabled {
+    color: #999; /* Cor da opção desabilitada */
+  }
+
+  .input-torneio{
+    padding-top: 15px;
+
+  }
+
+  .input-torneio input{
+    background-color: #2c2c2c; /* Fundo escuro */
+    background-color: #2c2c2c; /* Fundo escuro */
+    color: #fff; /* Cor do texto */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor:pointer;
+    width:310px;
+  }
+
+  .input-torneio input::placeholder{
+    color:white;
+    filter: opacity(0.5);
+  }
+
+  .botoesTorneio{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:70px;
+  }
+
+  .botoesTorneio button{
+    width:100px;
+    height:60px;
+    margin-left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }

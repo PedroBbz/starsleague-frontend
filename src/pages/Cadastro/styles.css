@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* STYLE DO CADASTRO */
+
+* {
+  font-family: "Aleo", serif;
+  font-weight: bold;
+}
+
+
+.cadastro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(35, 114, 187);
+  background: radial-gradient(circle, rgba(35, 114, 187, 1) 0%, rgba(63, 89, 135, 1) 48%, rgba(36, 28, 69, 1) 100%);
+}
+
+
+.telaCadastro {
+  border-radius: 2%;
+  gap: 20px;
+  background-color: #D1CEE2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45%;
+  width: 20%;
+  min-width: 350px;
+  min-height: 400px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+#CSC {
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+
+#login {
+  background-color: #D1CEE2;
+  border: 2px solid #9fa4c0;
+  color: black;
+  outline: none;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.2s ease-in-out;
+}
+
+#login:hover {
+  opacity: 0.8;
+}
+
+
+#cadastro {
+  font-weight: bold;
+  background-color: #241C45;
+  color: #FFF;
+  border: none;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#opcoes {
+  padding: 10px;
+  border: 2px solid #9fa4c0;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #555;
+  outline: none;
+  width: 190px;
+  font-size: 12px;
+}
+
+
+.inputsCadastro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputsCadastro input {
+  padding: 10px;
+  border: 2px solid #9fa4c0;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #555;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.inputsCadastro:focus {
+  border-color: #ca9605;
+  box-shadow: 0 0 0 0.5rem rgba(255, 181, 20, 0.911);
+}
+
+
+
+.botoesCadastro button {
+  border-radius: 5px;
+  border: 1px solid #7C8AA1;
+  background-color: #241C45;
+  color: #FFF;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
+
+/* From Uiverse.io by OliverZeros BOTAO CRIAR */
+/* Inicio do botao */
+.botaoLog {
+  all: unset;
+}
+
+.botaoLog button {
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  height: 3.5rem;
+  align-items: center;
+  border-radius: 9999px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: Segoe UI;
+  font-size: 1.2rem;
+  font-weight: 640;
+  color: #3e244d;
+  letter-spacing: -0.06em;
+}
+
+.botaoLog button-item {
+  background-color: transparent;
+  color: #1d1d1f;
+}
+
+.botaoLog .button-item .button-bg {
+  border-color: rgba(255, 208, 116);
+  background-color: transparent;
+}
+
+.button-inner,
+.button-inner-hover,
+.button-inner-static {
+  pointer-events: none;
+  display: block;
+}
+
+.button-inner {
+  position: relative;
+}
+
+.button-inner-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(70%);
+}
+
+.button-bg {
+  overflow: hidden;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: transform 1.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button-bg,
+.button-bg-layer,
+.button-bg-layers {
+  display: block;
+}
+
+.button-bg-layers {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -60%;
+  aspect-ratio: 1 / 1;
+  width: max(200%, 10rem);
+}
+
+.button-bg-layer {
+  border-radius: 9999px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+}
+
+.button-bg-layer.-purple {
+  background-color: #0a0a50;
+}
+
+.button-bg-layer.-turquoise {
+  background-color: rgb(158, 91, 245);
+}
+
+.button-bg-layer.-yellow {
+  background-color: #D1CEE2;
+}
+
+.button:hover .button-inner-static {
+  opacity: 0;
+  transform: translateY(-70%);
+  transition:
+    transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.3s linear;
+}
+
+.button:hover .button-inner-hover {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 1.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button:hover .button-bg-layer {
+  transition:
+    transform 1.3s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.3s linear;
+}
+
+.button:hover .button-bg-layer-1 {
+  transform: scale(1);
+}
+
+.button:hover .button-bg-layer-2 {
+  transition-delay: 0.1s;
+  transform: scale(1);
+}
+
+.button:hover .button-bg-layer-3 {
+  transition-delay: 0.2s;
+  transform: scale(1);
+}
+
+/* Fim do botão */

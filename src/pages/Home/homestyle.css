@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+/* a eh, ent dps a gente só coloca nos botões né n?  isoooooo*/
+/* É que o background da home é a logo com aquele fundo, ai eu n tenho por isso deixei so essas cores */
+
+.home-container {
+
+    background-image:url('../../assets/background-SL.png');
+    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+

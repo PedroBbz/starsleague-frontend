@@ -1,0 +1,50 @@
+/* STYLE DA PAGINA PRINCIPAL USUARIO/PARTICIPANTE */
+
+
+.usuario-container {
+    width:100vw;
+    height: 100vh;
+    background: rgb(13,19,51);
+    background: linear-gradient(225deg, rgba(13,19,51,1) 23%, rgba(66,20,111,1) 53%, rgba(71,7,135,1) 77%, rgba(54,31,87,1) 99%);
+}
+
+.textoUsuario{
+    color: rgb(255,0,128);
+    display: flex;
+    padding-top: 25vh;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 40px; 
+    white-space: nowrap;
+}
+
+.botaoUser {
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background: #725AC1;
+    cursor: pointer;
+    transition: ease-out 0.8s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+  } 
+  /* voltei dnv fui resolver um bgl aqui */
+  
+  .botaoUser:hover {
+    color: black;
+    box-shadow: inset 0 -100px 0 0 white;
+  }
+  
+  .botaoUser:active {
+    transform: scale(0.9);
+  }
+

@@ -1,0 +1,195 @@
+.perfil-container{
+    width: 100vw;
+    height:100vh;
+    background: rgb(13,19,51);
+    background: linear-gradient(225deg, rgba(13,19,51,1) 23%, rgba(66,20,111,1) 53%, rgba(71,7,135,1) 77%, rgba(54,31,87,1) 99%);
+
+}
+
+.foto{
+    width: 25vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center; 
+}
+
+.foto img{ 
+    width:320px;
+    height:320px;
+    border-radius:20px;
+}
+
+
+.conteudo{
+    background: linear-gradient(225deg, rgb(11, 16, 43) 23%, rgb(43, 13, 73) 53%, rgb(56, 6, 105) 77%, rgb(43, 25, 70) 99%);
+    display: flex;
+    flex-direction: row; 
+}
+
+.foto{
+
+width: 20vw;
+padding:40px;
+min-width: 400px;
+}
+
+.configuracoes{
+    width: 1000px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    white-space: nowrap;
+    color:white;
+    
+}
+
+.textoConfig{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.inputFoto {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+/* Esconde o input padrão */
+.inputFoto input[type="file"] {
+    display: none;
+}
+
+/* Estiliza o label como botão */
+.inputFoto label {
+    background-color: #4c4668;
+    border: 2px solid #9fa4c0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.inputFoto label:hover {
+    background-color: #363249;
+}
+
+.inputNome{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.inputNome input {
+
+    background-color: #4c4668;
+    width:300px;
+    padding: 10px;
+    border: 2px solid #9fa4c0;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.inputNome input::placeholder{
+    color:#fff
+}
+
+.localizacao{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#opcoesConfig {
+    background-color: #4c4668;
+    width:200px;
+    padding: 10px;
+    border: 2px solid #9fa4c0;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+
+.botaosalvar{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.botaosalvar button{
+    background-color: #9e96c0;
+    padding: 10px;
+    border: 2px solid #cacee2;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #231f27;
+    font-size: 25px;
+    outline: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.botaosalvar button:hover{
+    background-color: #8f88ad;
+    
+}
+
+.divContasEDelete{
+    display: flex;
+    flex-direction: column;
+}
+
+.textoConta{
+    color:white;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.jogosConta img{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    
+
+}
+/*  me fala oq e pra fzer se tu puder adiantar a tela de criaçao de torneio q o juan fez hoje na sala, ela tem pouca coisa, so tem muito input
+ai e so vc copiar e colar dos inputs do login e ir mudando as cores ta so cria a pasta pra mim p n dar bo*/
+
+.deletarConta{
+
+    display: flex;
+    margin-left: 1000px;
+    align-items: end;
+}
+
+.deletarConta button{
+    background-color: #aa1414;
+    padding: 8px;
+    border: 2px solid #af5e1b;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #ddca1d;
+    font-size: 25px;
+    outline: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width:200px;
+}
