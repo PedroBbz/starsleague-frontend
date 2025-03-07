@@ -1,0 +1,6 @@
+.selecaoTorneio-container{
+    width:100vw;
+    height: 100vh;
+    background: rgb(13,19,51);
+    background: linear-gradient(225deg, rgba(13,19,51,1) 23%, rgba(66,20,111,1) 53%, rgba(71,7,135,1) 77%, rgba(54,31,87,1) 99%);
+}

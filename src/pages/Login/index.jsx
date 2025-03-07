@@ -1,5 +1,5 @@
 import './styles.css'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 // TELA DE LOGIN
 
@@ -41,6 +41,7 @@ function Login() {
 
 
         {/* Botão Criar */}
+        <Link to='/organizador'>
         <div className="botaoLog">
           <button class="button button-item">
             <span class="button-bg">
@@ -56,6 +57,7 @@ function Login() {
             </span>
           </button>
         </div>
+        </Link>
 
 
 

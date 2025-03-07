@@ -8,7 +8,6 @@ import Organizador from '../pages/Organizador'
 import Usuario from '../pages/Usuario'
 
 import TorneioOrg from '../pages/Organizador/TorneioOrganizador'
-import ChaveOrg from '../pages/Organizador/ChaveamentoOrganizador'
 import HistoricoOrg from '../pages/Organizador/HistoricoOrganizador'
 import HistoricoUser from '../pages/Organizador/HistoricoOrganizador'
 import TorneioUser from '../pages/Organizador/TorneioOrganizador'
@@ -16,6 +15,11 @@ import PerfilOrg from '../pages/PerfilOrg'
 import PerfilConfig from '../pages/PerfilConfig'
 import CriarTorneio from '../pages/CriarTorneio'
 import CriarEquipe from '../pages/CriarEquipes'
+import ChaveOrg from '../pages/Chaveamento'
+import SelecionarParticipantes from '../pages/ColocarParticipantesEmEquipe/SelecionarParticipantes'
+import SelecionarEquipes from '../pages/ColocarEquipesEmTorneio/SelecionarEquipes'
+import MostrarEquipes from '../pages/Equipes'
+import MostrarParticipantes from '../pages/Participantes'
 
 
 
@@ -46,6 +50,15 @@ function AppRoutes(){
 
                 <Route path='/criar-torneio' element={<CriarTorneio />}/>
                 <Route path='/criar-equipe' element={<CriarEquipe />}/>
+
+
+                <Route path="/equipes" element={<MostrarEquipes/>} />
+                <Route path="/participantes" element={<MostrarParticipantes/>} />
+                
+                <Route path="/selecionar-participantes" element={<SelecionarParticipantes />} />
+                <Route path="/selecionar-equipes" element={<SelecionarEquipes />} />
+
+
 
                 
                 

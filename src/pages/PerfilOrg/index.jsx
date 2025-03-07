@@ -109,15 +109,15 @@ function PerfilOrg() {
           <div className="iconsTorneio">
             <img src={zoio} alt="" />
           </div>
-          
+
 
         </div>
 
-        
-        
+
+
 
       </div>
-      
+
 
 
 

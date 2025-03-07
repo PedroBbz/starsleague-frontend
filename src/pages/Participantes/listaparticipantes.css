@@ -1,0 +1,40 @@
+.container-participantes{
+    background: rgb(13,19,51);
+    background: linear-gradient(225deg, rgba(13,19,51,1) 23%, rgba(66,20,111,1) 53%, rgba(71,7,135,1) 77%, rgba(54,31,87,1) 99%);
+    flex-direction: column;
+    display: flex;
+    width:100vw;
+    height:100vh;
+    color:#fff;
+}
+
+
+.participantes h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.participante-card{
+    background: linear-gradient(225deg, rgb(21, 18, 58) 23%, rgb(51, 15, 87) 53%, rgb(61, 13, 109) 77%, rgb(37, 15, 66) 99%);
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    margin-bottom: 10px;
+    gap:30px;
+}
+
+.conteudoParticipante{
+    display: flex;
+    align-items: center;
+    width:78vw;
+}
+
+.listaparticipantes{
+    display: flex;
+}
+
+
+

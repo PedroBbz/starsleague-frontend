@@ -1,0 +1,41 @@
+.container-torneios{
+    background: rgb(13,19,51);
+    background: linear-gradient(225deg, rgba(13,19,51,1) 23%, rgba(66,20,111,1) 53%, rgba(71,7,135,1) 77%, rgba(54,31,87,1) 99%);
+    flex-direction: column;
+    display: flex;
+    width:100vw;
+    height:100vh;
+    color:#fff;
+}
+
+.container table{
+    gap: 5px;
+}
+
+.torneio-card{
+    gap:30px;
+}
+
+.opcaos button{
+    margin-top: 30px;
+    margin-right: 15px;
+    background-color: #4c4668;
+    border: 2px solid #9fa4c0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.opcaos button:hover{
+    background-color: #363249;
+}
+
+.torneios h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}

@@ -1,5 +1,5 @@
 import './styles.css'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 //TELA DE CADASTRO
 
@@ -39,21 +39,24 @@ function Cadastro() {
         </select>
 
         {/* Botão Criar */}
-        <div className="botaoLog">
-          <button class="button button-item">
-            <span class="button-bg">
-              <span class="button-bg-layers">
-                <span class="button-bg-layer button-bg-layer-1 -purple"></span>
-                <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
-                <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+        <Link to="/organizador">
+          <div className="botaoLog">
+            <button class="button button-item">
+              <span class="button-bg">
+                <span class="button-bg-layers">
+                  <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                  <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                  <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                </span>
               </span>
-            </span>
-            <span class="button-inner">
-              <span class="button-inner-static">Criar</span>
-              <span class="button-inner-hover">Criar</span>
-            </span>
-          </button>
-        </div>
+              <span class="button-inner">
+
+                <span class="button-inner-static">Criar</span>
+                <span type='button' class="button-inner-hover">Criar</span>
+              </span>
+            </button>
+          </div>
+        </Link>
 
 
 

@@ -18,7 +18,11 @@ function Organizador() {
 
 
         <Link to='/criar-torneio'>
-        <button className='botaoorg'>Comece a criar</button>
+        <button className='botaoorg'>Criar torneio</button>
+        </Link>
+
+        <Link to='/criar-equipe'>
+        <button className='botaoorg'>Crie equipes</button>
         </Link>
 
 

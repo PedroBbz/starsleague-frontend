@@ -141,7 +141,7 @@
   }
 
   .botoesEquipe button{
-    width:100px;
+    width:150px;
     height:60px;
     margin-left: 5px;
     font-size: 20px;
@@ -149,3 +149,57 @@
   }
 
   /* https://youtu.be/7eVlsmhNZjg?si=OmrRa-sA2jbA6cjz  */
+
+  .botoesEquipe button{
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background: #725AC1;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+  } 
+  /* voltei dnv fui resolver um bgl aqui */
+
+  .botoesEquipe button:hover {
+    color: black;
+    box-shadow: inset 0 -100px 0 0 white;
+  }
+  
+  .botoesEquipe button:active {
+    transform: scale(0.9);
+  }
+
+  #cancelar button{
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background: #725AC1;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #cc3333;
+
+  }
+
+  #cancelar:hover{
+    color: rgb(204, 191, 191);
+    box-shadow: inset 0 -100px 0 0 rgb(219, 60, 60);
+  }
